@@ -123,7 +123,7 @@ unblock_youku.common_urls = [
     'http://www.yinyuetai.com/insite/*',
     'http://www.yinyuetai.com/main/get-*',
     'http://www.xiami.com/play?*',
-    'http://www.kugou.com/interface/geoip/checkip.php',
+    'http://www.kugou.com/interface/geoip/*',
     'http://www.kuwo.cn/yy/PlayCheckIp?callback=checkIpCallback&_=*',
     'http://antiserver.kuwo.cn/anti.s?*',
 
@@ -152,6 +152,7 @@ unblock_youku.common_urls = [
     'http://vip.sports.cntv.cn/check.do*',
     'http://vip.sports.cntv.cn/play.do*',
     'http://vip.sports.cntv.cn/servlets/encryptvideopath.do*',
+    'http://www.qie.tv/*',
     'http://211.151.157.15/*'
 ];
 
@@ -302,6 +303,7 @@ unblock_youku.server_extra_urls = [
     'http://api.tv.sohu.com/mobile_user/device/clientconf.json?*',
     'http://access.tv.sohu.com/*',
     'http://iface.iqiyi.com/api/searchIface?*',
+    'http://iface.iqiyi.com/api/ip2area?*',
     'http://iface2.iqiyi.com/php/xyz/iface/*',
     'http://iface2.iqiyi.com/php/xyz/entry/galaxy.php?*',
     'http://iface2.iqiyi.com/php/xyz/entry/nebula.php?*',
@@ -327,6 +329,8 @@ unblock_youku.server_extra_urls = [
     // 'http://vdn.live.cntv.cn/api2/live.do?channel=pa://cctv_p2p_hdcctv8*',
     // 'http://vdn.live.cntv.cn/api2/live.do?channel=pa://cctv_p2p_hdbtv6*',
     "http://vdn.live.cntv.cn/*",
+    "http://app.bilibili.com/*",
+    "https://app.bilibili.com/*",
 
     // Music apps
     'http://3g.music.qq.com/*',
